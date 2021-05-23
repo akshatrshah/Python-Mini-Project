@@ -4,6 +4,8 @@ Akshat Shah, 16010120102
 Tattvam Shah, 16010120101
 Harshit Sapra, 16010120100
 
+_________________________________________________________________________________________________________________________________________________________________________________
+
 We have worked to make a banking management system (named as: THE INDIAN BANK) which has 11 features as mentioned below:
 - Opening a new account
 - Withdraw money 
@@ -16,7 +18,7 @@ We have worked to make a banking management system (named as: THE INDIAN BANK) w
 - Interaccount Trnasfers
 - Speech recognition (to accept the voice of the user and selecting which feature of the bank to use)
 - Text to speech 
-___________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 
 1) Opening a new account: Anyone can use this program and create an account with our bank.
  
