@@ -1,0 +1,11 @@
+This a project made by Akshat Shah, Tattvam Shah, Hashit Sapra of KJSCE.
+A Python Mini Project on Banking Management System.
+for the Proper working of the project you have install the following libraries using pip install:
+-datetime 
+-speech_recognition
+-colorama
+-termcolor
+-simple_colors
+-os
+-pyttsx3
+-fpdf
