@@ -7,7 +7,6 @@ import os
 import random
 import os
 import pyttsx3
-from fpdf import FPDF
 init()
 
 engine = pyttsx3.init('sapi5')
@@ -45,17 +44,13 @@ customerLoans=[1000,5000,0]
 remove_pin = random.randint(100000, 1000000)
 
 
-def bill_generator(text): 
-    file_name=input("Enter name with which you want to save: ")
-    with open(f'{file_name}.txt', 'w') as f:
-        f.write(text)
-    pdf = FPDF()
-    pdf.add_page()
-    pdf.set_font("Arial", size = 15)
-    f = open(f"{file_name}.txt", "r")
-    for x in f:
-        pdf.cell(200, 10, txt = x, ln = 1, align = 'C')
-    pdf.output(f"{file_name}.pdf")
+def bill_generator(text):
+    fileName = input("File name you want to save it as: ") + ".txt"
+    speak(f'File name you want to save it as: ')
+    Myfile = open(fileName, 'w')
+    Myfile.write(text)
+    Myfile.close()
+    os.startfile(fileName)
 
 
 class my_bank():
