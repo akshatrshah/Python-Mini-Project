@@ -9,3 +9,5 @@ for the Proper working of the project you have install the following libraries u
 -os
 -pyttsx3
 -fpdf
+
+Use proper earphones/headphones for proper detection of your voice and to hear the instructions said by the system.
