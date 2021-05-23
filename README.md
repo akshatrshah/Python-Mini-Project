@@ -1,12 +1,24 @@
 # Python-Mini-Project
-A Project by:-
+A Python Mini Project on Banking Management System by:
 Akshat Shah, 16010120102
 Tattvam Shah, 16010120101
 Harshit Sapra, 16010120100
-
 _________________________________________________________________________________________________________________________________________________________________________________
 
-We have worked to make a banking management system (named as: THE INDIAN BANK) which has 11 features as mentioned below:
+for the Proper working of the project you have install the following libraries using pip install:
+ - datetime 
+ - speech_recognition
+ - colorama
+ - termcolor
+ - simple_colors
+ - os
+ - pyttsx3
+ - fpdf
+   
+ Use proper earphones/headphones for proper detection of your voice and to hear the instructions said by the system.
+_________________________________________________________________________________________________________________________________________________________________________________
+
+We have worked to make a banking management system (named as: THE INDIAN BANK) which has the following features:
 - Opening a new account
 - Withdraw money 
 - Deposit money 
@@ -20,18 +32,4 @@ We have worked to make a banking management system (named as: THE INDIAN BANK) w
 - Text to speech 
 _________________________________________________________________________________________________________________________________________________________________________________
 
-1) Opening a new account: Anyone can use this program and create an account with our bank.
- 
-2) Withdraw: The required details are asked from the user and he is allowed to withdraw amount from his account if he has sufficient balance and provides correct credenials.
-
-3) Deposit: The required details are asked from the user and he is allowed to deposit  amount to his account provided creditenials are correct.
-
-4) Check details: On providing correct credenials his account number, account holder name, Balance amount and outstanding loan amounts are displayed. 
-
-5) Delete Account: Every account holder can anytime can delete his account(only if his loan amount is cleared).
-
-6)
-The main idea of this project is for the use of a blind person to be able to use this application, as we have put the text to speech in this program so that a visually challlenged person is guided through it. 
-Speech recognition is used only to accept the choice of the user, and later it is not used to maintain the privacy of the user. 
-After every activity the user can generate a pdf of the activity as a proof in case of any conflict with the bank. The pdf will have date and time of the transaction.
-Incase the user enters incorrect pin or value he is directly guided out that feature so that no one can gain access into someone's account by guessing his account details.
+For starting the banking application, user must say "hey bank" and specify the option he she wants to go to from they menu. A text to speech will assisst the user throught the feature where various details of the account will be asked and matched with the data that is available with the bank. In case incorrect credentials are given user will be guided out of the application. For any work carried out with the bank, user can generate a written statement of their action having time and date mentioned in it. 
