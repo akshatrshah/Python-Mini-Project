@@ -16,6 +16,7 @@ We have worked to make a banking management system (named as: THE INDIAN BANK) w
 - Interaccount Trnasfers
 - Speech recognition (to accept the voice of the user and selecting which feature of the bank to use)
 - Text to speech 
+___________________________________________________________________________________________________________________________________________________________________________________
 
 1) Opening a new account: Anyone can use this program and create an account with our bank.
  
