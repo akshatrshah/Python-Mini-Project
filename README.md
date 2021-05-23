@@ -26,7 +26,9 @@ ________________________________________________________________________________
 
 4) Check details: On providing correct credenials his account number, account holder name, Balance amount and outstanding loan amounts are displayed. 
 
-5)  
+5) Delete Account: Every account holder can anytime can delete his account(only if his loan amount is cleared).
+
+6)
 The main idea of this project is for the use of a blind person to be able to use this application, as we have put the text to speech in this program so that a visually challlenged person is guided through it. 
 Speech recognition is used only to accept the choice of the user, and later it is not used to maintain the privacy of the user. 
 After every activity the user can generate a pdf of the activity as a proof in case of any conflict with the bank. The pdf will have date and time of the transaction.
