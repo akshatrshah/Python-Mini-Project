@@ -678,7 +678,7 @@
                 print("|->  6. Take loan                    |")
                 print("|->  7. Repay Loan                   |")
                 print("|->  8. Overseas Transfer            |")
-                print("|->  9. Money Transfers              |")
+                print("|->  9. Interaccount Money Transfers |")
                 print("|->  10. Exit                        |")
                 print("|____________________________________|")
 
