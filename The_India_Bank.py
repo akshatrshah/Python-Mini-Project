@@ -224,8 +224,8 @@ class my_bank():
                         print(colored(f"Your current balance is : {customerBalances[x]}", "red"))
                         speak(f"Your current balance is : {customerBalances[x]}")
                         while True:
-                            speak("Do you want a written statement for account opening, enter Y or N : ")
-                            xyz = input("Do you want a written statement for account opening, enter Y/N : ")
+                            speak("Do you want a written statement for deposition, enter Y or N : ")
+                            xyz = input("Do you want a written statement for deposition, enter Y/N : ")
                             if xyz.lower() == "y":
                                 o = datetime.datetime.now()
                                 n = f'         ----The India Bank---- \n\n                         {o}\n\n\nFor Account Number {customerNum[x]} a deposit of Rs.{amount} was made.\n\n\n----Thank you for banking with us!----'
@@ -509,8 +509,8 @@ class my_bank():
                                 print(colored(f'Your current balance is now: {customerBalances[x]}', 'red'))
                                 speak(f'Your current balance is now: {customerBalances[x]}')
                                 while True:
-                                    speak("Do you want a written statement for account removal, enter Y or N: ")
-                                    xyz = input("Do you want a written statement for account removal, enter Y/N: ")
+                                    speak("Do you want a written statement for this transaction, enter Y or N: ")
+                                    xyz = input("Do you want a written statement this transaction, enter Y/N: ")
                                     if xyz.lower() == "y":
                                         o = datetime.datetime.now()
                                         n = f'         ----The India Bank---- \n\n                         {o}\n\n\nFor Account Number {customerNum[x]}, {v} was transferred to {c} in our Bank.\n\n\n----Thank you for banking with us!----'
@@ -601,8 +601,8 @@ class my_bank():
                             print(colored("Successful!", "green"))
                             speak('successful')
                             while True:
-                                speak("Do you want a written statement for account opening, enter Y or N: ")
-                                xyz = input("Do you want a written statement for account opening, enter Y/N: ")
+                                speak("Do you want a written statement for account removal, enter Y or N: ")
+                                xyz = input("Do you want a written statement for account removal, enter Y/N: ")
                                 if xyz.lower() == "y":
                                     o = datetime.datetime.now()
                                     n = f'         ----The India Bank---- \n\n                         {o}\n\n\nFor Account Number {customerNum[x]} was removed from our Bank.\n\n\n----Thank you for banking with us!----'
@@ -658,8 +658,8 @@ class my_bank():
                             print('Loan paid, your current balance is: ', customerBalances[x])
                             speak(f'Loan paid, your current balance is {customerBalances[x]}')
                             while True:
-                                speak("Do you want a written statement for account removal, enter Y or N: ")
-                                xyz = input("Do you want a written statement for account removal, enter Y/N: ")
+                                speak("Do you want a written statement for clearing your loan, enter Y or N: ")
+                                xyz = input("Do you want a written statement for clearing your loan, enter Y/N: ")
                                 if xyz.lower() == "y":
                                     o = datetime.datetime.now()
                                     n = f'         ----The India Bank---- \n\n                         {o}\n\n\nLoan is cleared For Account Number {customerNum[x]} with our Bank.\n\n\n----Thank you for banking with us!----'
