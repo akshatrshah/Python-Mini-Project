@@ -1,8 +1,6 @@
 # Python-Mini-Project
 A Python Mini Project on Banking Management System by:
 Akshat Shah, 16010120102
-Tattvam Shah, 16010120101
-Harshit Sapra, 16010120100
 _________________________________________________________________________________________________________________________________________________________________________________
 
 for the Proper working of the project you have install the following libraries using pip install:
